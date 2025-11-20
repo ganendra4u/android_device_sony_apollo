@@ -10,6 +10,9 @@ $(call inherit-product, device/sony/apollo/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Setup keystore
+-include vendor/lineage-priv/keys/keys.mk
+
 PRODUCT_NAME := lineage_apollo
 PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Sony
