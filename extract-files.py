@@ -15,7 +15,7 @@ namespace_imports = [
 ]
 
 module = ExtractUtilsModule(
-    'xz2c',
+    'apollo',
     'sony',
     namespace_imports=namespace_imports,
     check_elf=True,
