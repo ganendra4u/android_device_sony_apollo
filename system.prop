@@ -15,6 +15,3 @@ ro.semc.version.sw_variant=GLOBAL-A2
 
 #lunaris
 ro.lunaris.maintainer=Ganendra1945
-WITH_GMS := false
-WITH_PIXEL_LAUNCHER := false
-USE_REALITY_ENGINE := true
