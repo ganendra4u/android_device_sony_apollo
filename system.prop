@@ -12,3 +12,9 @@ ro.semc.version.sw=1311-5320
 ro.semc.version.sw_revision=52.1.A.3.49
 ro.semc.version.sw_type=user
 ro.semc.version.sw_variant=GLOBAL-A2
+
+#lunaris
+ro.lunaris.maintainer=Ganendra1945
+WITH_GMS := false
+WITH_PIXEL_LAUNCHER := false
+USE_REALITY_ENGINE := true
