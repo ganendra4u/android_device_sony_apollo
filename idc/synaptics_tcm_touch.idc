@@ -34,8 +34,8 @@ touch.deviceType = touchScreen
 touch.orientationAware = 1
 
 touch.size.calibration = geometric
-touch.size.scale = 1
+touch.size.scale = 0.5
 touch.size.bias = 0
 touch.size.isSummed = 0
 
-touch.pressure.scale = 0.008
+touch.pressure.scale = 0.0001
