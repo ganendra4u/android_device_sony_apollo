@@ -12,3 +12,8 @@ ro.semc.version.sw=1311-5320
 ro.semc.version.sw_revision=52.1.A.3.49
 ro.semc.version.sw_type=user
 ro.semc.version.sw_variant=GLOBAL-A2
+
+#infinity
+ro.product.marketname=Sony XZ2 Compact
+ro.infinity.soc=Snapdragon 845
+ro.infinity.camera=19MP + 5MP
