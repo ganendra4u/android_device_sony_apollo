@@ -13,6 +13,9 @@ $(call inherit-product-if-exists, vendor/sony/apollo/apollo-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
+# Torch Control
+BOARD_HAVE_TORCH := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
