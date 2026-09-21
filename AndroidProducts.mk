@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_xz2c.mk
+    $(LOCAL_DIR)/nad_xz2c.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_xz2c-user \
-    lineage_xz2c-userdebug \
-    lineage_xz2c-eng
+    nad_xz2c-user \
+    nad_xz2c-userdebug \
+    nad_xz2c-eng
