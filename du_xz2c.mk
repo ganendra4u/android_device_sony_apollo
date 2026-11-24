@@ -8,7 +8,7 @@
 $(call inherit-product, device/sony/xz2c/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common.mk)
 
 PRODUCT_NAME := du_xz2c
 PRODUCT_DEVICE := xz2c
@@ -24,3 +24,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="H8324-user 10 52.1.A.3.49 052001A003004902006556692 release-keys"
 
 BUILD_FINGERPRINT := Sony/H8324/H8324:10/52.1.A.3.49/052001A003004902006556692:user/release-keys
+
+USE_GAPPS := true
+CORVUS_MAINTAINER=ganx000
+CORVUS_MAINTAINER := ganx0000
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
